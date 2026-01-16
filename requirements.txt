@@ -1,0 +1,45 @@
+# === Core Dependencies ===
+openai>=1.0.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+requests>=2.31.0
+
+# === GUI (PyQt6) ===
+PyQt6>=6.5.0
+
+# === 3D Avatar ===
+trimesh>=4.0.0
+pygltflib>=1.16.0
+PyOpenGL>=3.1.7
+pillow>=10.0.0
+
+# === TTS Options ===
+# NOTE: Coqui TTS requires Python 3.9-3.11
+# If you have Python 3.12+, use pyttsx3 instead
+#
+# For Python 3.9-3.11 (with voice cloning):
+# pip install TTS>=0.22.0
+#
+# For Python 3.12+ (basic TTS, no cloning):
+pyttsx3>=2.90
+
+# === Audio ===
+# torch>=2.0.0
+# torchaudio>=2.0.0
+pygame>=2.5.0
+soundfile>=0.12.0
+scipy>=1.11.0
+
+# === Telegram Bot ===
+python-telegram-bot>=20.0
+
+# === Face Emotion Recognition ===
+fer>=22.5.0
+opencv-python-headless>=4.8.0
+# tensorflow>=2.13.0  # Optional, large download
+
+# === Google Calendar ===
+google-auth-oauthlib>=1.0.0
+google-api-python-client>=2.100.0
+
+# === End of dependencies ===
