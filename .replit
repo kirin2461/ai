@@ -1,0 +1,4 @@
+modules = ["nodejs-20", "go-1.25"]
+
+[agent]
+expertMode = true
